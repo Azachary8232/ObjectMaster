@@ -26,7 +26,8 @@ const pokemon = Object.freeze([
 
 // const bListPkmn = pokemon.filter( something );
 const idDiv3 = pokemon.filter( p => p.id % 3 == 0);
-
+const type1 = pokemon.filter( p => p.types.includes("fire"));
+console.log(type1);
 
 
 // function something(p){
