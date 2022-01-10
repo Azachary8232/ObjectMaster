@@ -30,7 +30,8 @@ const type1 = pokemon.filter( p => p.types.includes("fire"));
 const type2 = pokemon.filter( p => p.types.length > 1);
 const names = pokemon.map( p => p.name);
 const names2 = pokemon.filter( p => p.id > 99).map( p => p.name);  
-console.log(names2);
+const names3 = pokemon.filter( p => p.types == "poison").map( p => p.name);  
+console.log(names3);
 
 
 // function something(p){
