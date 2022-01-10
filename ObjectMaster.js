@@ -28,7 +28,8 @@ const pokemon = Object.freeze([
 const idDiv3 = pokemon.filter( p => p.id % 3 == 0);
 const type1 = pokemon.filter( p => p.types.includes("fire"));
 const type2 = pokemon.filter( p => p.types.length > 1);
-console.log(type2);
+const names = pokemon.map( p => p.name);
+console.log(names);
 
 
 // function something(p){
