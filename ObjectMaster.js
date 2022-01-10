@@ -1,4 +1,4 @@
-const pokémon = Object.freeze([
+const pokemon = Object.freeze([
     { "id": 1,   "name": "Bulbasaur",  "types": ["poison", "grass"] },
     { "id": 5,   "name": "Charmeleon", "types": ["fire"] },
     { "id": 9,   "name": "Blastoise",  "types": ["water"] },
@@ -24,4 +24,16 @@ const pokémon = Object.freeze([
     { "id": 148, "name": "Dragonair",  "types": ["dragon"] }
 ]);
 
-const bListPkmn = pokémon.filter( p => p.name[0] === "B" );
+// const bListPkmn = pokemon.filter( something );
+const idDiv3 = pokemon.filter( p => p.id % 3 == 0);
+
+
+
+// function something(p){
+//     if( p.name[0] === "B"){
+//         return true;
+//     }
+//     // p => p.name[0] === "B"
+    
+// }
+// console.log(bListPkmn);
