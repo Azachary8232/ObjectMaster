@@ -37,11 +37,3 @@ const names6 = names5.length;
 console.log(names6);
 
 
-// function something(p){
-//     if( p.name[0] === "B"){
-//         return true;
-//     }
-//     // p => p.name[0] === "B"
-    
-// }
-// console.log(bListPkmn);
