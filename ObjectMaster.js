@@ -32,7 +32,9 @@ const names = pokemon.map( p => p.name);
 const names2 = pokemon.filter( p => p.id > 99).map( p => p.name);  
 const names3 = pokemon.filter( p => p.types == "poison").map( p => p.name);  
 const names4 = pokemon.filter( p => p.types[1] == "flying").map( p => p.types[0]);  
-console.log(names4);
+const names5 = pokemon.filter( p => p.types.includes("normal")); 
+const names6 = names5.length;
+console.log(names6);
 
 
 // function something(p){
